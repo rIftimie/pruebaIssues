@@ -58,7 +58,7 @@ class Orders
     {
         $this->status = $status;
 
-        return $this;
+        return $thi;
     }
 
     public function getOrderDate(): ?\DateTimeInterface
