@@ -102,7 +102,7 @@ class Orders
      */
     public function getOrderProducts(): Collection
     {
-        return $this->orderProducts;
+        return $this->orderProdu;
     }
 
     public function addOrderProduct(OrderProducts $orderProduct): self
